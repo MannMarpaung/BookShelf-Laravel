@@ -111,7 +111,7 @@ class BookController extends Controller
             
             $book->update($data);
 
-            // dd($book);3
+            // dd($book);4
 
             return redirect()->route('book.index');
             
